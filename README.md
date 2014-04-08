@@ -26,3 +26,5 @@ Custom [Polymer](http://polymer-project.org/) element for converting UTC to loca
 
 `<local-time><local-time>`
 
+`<local-time time='04/05/2013 4:42:42 PM UTC'></local-time>` would display the given UTC time in local time.
+
