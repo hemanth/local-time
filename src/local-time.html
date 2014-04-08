@@ -1,0 +1,18 @@
+<link rel="import" href="../components/polymer/polymer.html">
+<polymer-element name="local-time" attributes="time">
+    <template>
+        <style>
+            * {
+                box-sizing: border-box;    
+            }
+        </style>
+        <time datetime={{time}}>{{local}}</time>        
+    </template>
+    <script>
+        Polymer('local-time', {
+            ready: function () {
+              this.local = new Date(this.time);
+            }
+        });
+    </script>
+</polymer-element>
