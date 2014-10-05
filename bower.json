@@ -1,11 +1,16 @@
 {
   "name": "local-time",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Hemanth.HM <hemanth.hm@gmail.com>"
   ],
   "description": "Custom Polymer time element, to convert UTC to local time.",
-  "keywords": ["web-components", "time", "local", "ploymer"],
+  "keywords": [
+    "web-components",
+    "time",
+    "local",
+    "ploymer"
+  ],
   "main": "index.html",
   "license": "MIT",
   "homepage": "http://h3manth.com/",
