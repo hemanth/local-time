@@ -2,7 +2,8 @@
   "name": "local-time",
   "version": "0.1.1",
   "authors": [
-    "Hemanth.HM <hemanth.hm@gmail.com>"
+    "Hemanth.HM <hemanth.hm@gmail.com>",
+    "David Cox <losttime.shuffle@gmail.com>"
   ],
   "description": "Custom Polymer time element, to convert UTC to local time.",
   "keywords": [

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Custom Polymer time element, to convert UTC to local time.",
   "authors": [
-    "Hemanth.HM <hemanth.hm@gmail.com>"
+    "Hemanth.HM <hemanth.hm@gmail.com>",
+    "David Cox <losttime.shuffle@gmail.com"
   ],
   "license": "MIT",
   "repository": {
