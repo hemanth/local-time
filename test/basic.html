@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+
+        <title>iron-pages-basic</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+        <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+        <script src="../../web-component-tester/browser.js"></script>
+        <script src="../../test-fixture/test-fixture-mocha.js"></script>
+
+        <link rel="import" href="../local-time.html">
+        <link rel="import" href="../../test-fixture/test-fixture.html">
+
+    </head>
+    <body>
+
+        <test-fixture id="basic">
+            <template>
+                <local-time></local-time>
+            </template>
+        </test-fixture>
+
+        <script>
+
+            suite('basic', function() {
+                var time;
+
+                setup(function () {
+                    time = fixture('basic');
+                });
+
+                test('to nothing selected', function() {
+                    assert.equal(time.local, undefined);
+                });
+            });
+
+        </script>
+
+    </body>
+</html>

@@ -11,11 +11,14 @@
         is: 'local-time',
 
         properties: {
-            time: String
+            time: String,
+            local: String
         },
 
         ready: function () {
-            this.local = new Date(this.time);
+            if (this.time) {
+                this.local = new Date(this.time);
+            }
         }
     });
 </script>

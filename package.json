@@ -13,9 +13,11 @@
     },
     "scripts": {
       "postinstall": "bower install",
-      "start": "polyserve"
+      "start": "polyserve",
+      "test": "wct"
     },
     "devDependencies": {
-        "polyserve": "~0.4.0"
+        "polyserve": "~0.4.0",
+        "web-component-tester": "~3.3.30"
     }
 }
