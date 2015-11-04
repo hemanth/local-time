@@ -1,4 +1,4 @@
-# <local-time>
+# local-time
 
 Custom [Polymer](http://polymer-project.org/) element for converting UTC to local time.
 
