@@ -41,3 +41,7 @@ Custom [Polymer](http://polymer-project.org/) element for converting UTC to loca
 3. Preview your progress
 
 `http://localhost:8080/components/local-time/index.html`
+
+4. Run tests
+
+`npm test`

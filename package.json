@@ -1,23 +1,25 @@
 {
-    "name": "x-ip",
-    "version": "0.0.0",
-    "description": "Custom element to display client's IP address",
-    "author": "Hemanth.HM",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/hemanth/x-ip"
-    },
-    "bugs": {
-        "url": "https://github.com/hemanth/x-ip/issues"
-    },
-    "scripts": {
-      "postinstall": "bower install",
-      "start": "polyserve",
-      "test": "wct"
-    },
-    "devDependencies": {
-        "polyserve": "~0.4.0",
-        "web-component-tester": "~3.3.30"
-    }
+  "name": "local-time",
+  "version": "0.0.0",
+  "description": "Custom Polymer time element, to convert UTC to local time.",
+  "authors": [
+    "Hemanth.HM <hemanth.hm@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemanth/local-time"
+  },
+  "bugs": {
+    "url": "https://github.com/hemanth/local-time/issues"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "polyserve",
+    "test": "wct"
+  },
+  "devDependencies": {
+    "polyserve": "~0.4.0",
+    "web-component-tester": "~3.3.30"
+  }
 }
