@@ -11,13 +11,16 @@
         is: 'local-time',
 
         properties: {
-            time: String,
+            time: {
+                type: String,
+                observer: 'timeChanged'
+            },
             local: String
         },
 
-        ready: function () {
-            if (this.time) {
-                this.local = new Date(this.time);
+        timeChanged: function(newTime) {
+            if (newTime) {
+                this.local = new Date(newTime);
             }
         }
     });

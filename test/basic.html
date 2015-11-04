@@ -34,6 +34,13 @@
                 test('to nothing selected', function() {
                     assert.equal(time.local, undefined);
                 });
+
+                test('to nothing selected', function() {
+                    var now = new Date();
+                    time.time = now.toUTCString();
+                    assert.equal(time.local, now.toString());
+                });
+
             });
 
         </script>
