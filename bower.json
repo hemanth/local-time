@@ -9,7 +9,7 @@
     "web-components",
     "time",
     "local",
-    "ploymer"
+    "polymer"
   ],
   "main": "index.html",
   "license": "MIT",
