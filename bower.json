@@ -24,5 +24,8 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#~1.2.1"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   }
 }
