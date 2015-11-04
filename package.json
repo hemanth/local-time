@@ -1,6 +1,6 @@
 {
   "name": "local-time",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Custom Polymer time element, to convert UTC to local time.",
   "authors": [
     "Hemanth.HM <hemanth.hm@gmail.com>",
