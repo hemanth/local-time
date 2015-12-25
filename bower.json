@@ -1,15 +1,16 @@
 {
   "name": "local-time",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "authors": [
-    "Hemanth.HM <hemanth.hm@gmail.com>"
+    "Hemanth.HM <hemanth.hm@gmail.com>",
+    "David Cox <losttime.shuffle@gmail.com>"
   ],
   "description": "Custom Polymer time element, to convert UTC to local time.",
   "keywords": [
     "web-components",
     "time",
     "local",
-    "ploymer"
+    "polymer"
   ],
   "main": "index.html",
   "license": "MIT",
@@ -23,7 +24,11 @@
     "tests"
   ],
   "dependencies": {
-    "platform": "Polymer/platform#~0.2.0",
-    "polymer": "Polymer/polymer#~0.2.0"
+    "polymer": "Polymer/polymer#~1.2.1"
+  },
+  "devDependencies": {
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   }
 }

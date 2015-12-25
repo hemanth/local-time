@@ -1,0 +1,27 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="local-time">
+    <template>
+        <time datetime=[[time]]>[[local]]</time>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'local-time',
+
+        properties: {
+            time: {
+                type: String,
+                observer: 'timeChanged'
+            },
+            local: String
+        },
+
+        timeChanged: function(newTime) {
+            if (newTime) {
+                this.local = new Date(newTime);
+            }
+        }
+    });
+</script>
